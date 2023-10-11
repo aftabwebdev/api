@@ -27,8 +27,7 @@ body {
 	padding: 5px;
 }
 
-h2,
-p {
+h2 {
 	text-align: center;
 }
 
@@ -44,4 +43,18 @@ p {
 pre {
 	margin: 0;
 	padding: 0;
+}
+.address {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+.copy-link {
+	display: inline-block;
+	width: 100%;
+	padding: 0.5em 1em;
+	background-color: #222230;
+	color: white;
+	border: none;
+	border-radius: 0.25rem;
 }
