@@ -15,7 +15,7 @@ async function getAPI(api, displayData) {
 	}
 }
 
-export { api, getAPI };
+export { API, getAPI };
 
 /** 
  fetch("https://aftabwebdev.github.io/api/products/products.json")
