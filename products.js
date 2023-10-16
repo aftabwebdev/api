@@ -1,5 +1,8 @@
 async function ProductsAPI(displayData) {
-	// const api = "https://aftabwebdev.github.io/api/products/products.json";
+	const api = {
+		products: "https://aftabwebdev.github.io/api/products/products.json",
+		users: "https://aftabwebdev.github.io/json-api/myNiblings.json",
+	};
 
 	try {
 		const response = await fetch(api);
@@ -7,6 +10,7 @@ async function ProductsAPI(displayData) {
 		displayData(data);
 	} catch (err) {
 		document.body.innerHTML = err.message;
+		console.log(err.message);
 	}
 }
 
