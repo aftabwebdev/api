@@ -1,9 +1,9 @@
-async function ProductsAPI(displayData) {
-	const api = {
-		products: "https://aftabwebdev.github.io/api/products/products.json",
-		users: "https://aftabwebdev.github.io/json-api/users.json",
-	};
+const api = {
+	products: "https://aftabwebdev.github.io/api/products/products.json",
+	users: "https://aftabwebdev.github.io/json-api/users.json",
+};
 
+async function getAPI(api, displayData) {
 	try {
 		const response = await fetch(api);
 		const data = await response.json();
@@ -14,7 +14,7 @@ async function ProductsAPI(displayData) {
 	}
 }
 
-export default ProductsAPI;
+export { api, getAPI };
 
 /** 
  fetch("https://aftabwebdev.github.io/api/products/products.json")
