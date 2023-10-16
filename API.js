@@ -1,5 +1,6 @@
 const api = {
 	products: "https://aftabwebdev.github.io/api/products/products.json",
+	products2: "https://aftabwebdev.github.io/json-api/products.json",
 	users: "https://aftabwebdev.github.io/json-api/users.json",
 };
 
