@@ -1,7 +1,7 @@
 async function ProductsAPI(displayData) {
 	const api = {
 		products: "https://aftabwebdev.github.io/api/products/products.json",
-		users: "https://aftabwebdev.github.io/json-api/myNiblings.json",
+		users: "https://aftabwebdev.github.io/json-api/users.json",
 	};
 
 	try {
