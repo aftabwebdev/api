@@ -1,4 +1,4 @@
-function productsAPI(displayData) {
+export default function ProductsAPI(displayData) {
 	fetch("https://aftabwebdev.github.io/api/products/products.json")
 		.then((res) => res.json())
 		.then((data) => displayData(data))
